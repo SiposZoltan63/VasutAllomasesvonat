@@ -1,0 +1,15 @@
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\bin\Debug\net9.0\Vonat.exe
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\bin\Debug\net9.0\Vonat.deps.json
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\bin\Debug\net9.0\Vonat.runtimeconfig.json
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\bin\Debug\net9.0\Vonat.dll
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\bin\Debug\net9.0\Vonat.pdb
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.GeneratedMSBuildEditorConfig.editorconfig
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.AssemblyInfoInputs.cache
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.AssemblyInfo.cs
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.csproj.CoreCompileInputs.cache
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.dll
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\refint\Vonat.dll
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.pdb
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.genruntimeconfig.cache
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\ref\Vonat.dll
+C:\2026_2027\siposz\Gitwork\Vonat\Vonat\obj\Debug\net9.0\Vonat.csproj.Up2Date
