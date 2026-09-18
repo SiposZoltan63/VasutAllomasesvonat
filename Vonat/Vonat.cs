@@ -13,22 +13,21 @@ namespace Vonat
         private int hossz_m;
         private bool szemely1osztaly;
         private bool kocsik;
-        private bool uresvonat;
 
 
         public SzemelyVonat(string szallitmany, int hossz_m)
         {
-            this.szallitmany = szallitmany;
-            //this.gyors = gyors;
+            //this.szallitmany = szallitmany;
+            this.gyors = gyors;
             this.hossz_m = hossz_m;
-            //this.szemely1osztaly = szemely1osztaly;
+            this.szemely1osztaly = szemely1osztaly;
             //this.kocsik = kocsik;
         }
-        public Vonat(string szallitmany)
+        public SzemelyVonat(string szallitmany)
         {
             this.gyors = false;
             this.hossz_m = 4;
-            this.szallitmany = szallitmany;
+            //this.szallitmany = szallitmany;
             this.szemely1osztaly= false;
             this.kocsik = true;
         }
