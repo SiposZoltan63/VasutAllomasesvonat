@@ -5,28 +5,23 @@
         static void Main(string[] args)
         {
             SzemelyVonat TokajIC;
-            TokajIC = new SzemelyVonat("személy", true,5,true,true);
+            TokajIC = new SzemelyVonat(5,true,true);
             Console.WriteLine("TokajIC");
             Console.WriteLine(TokajIC.GyorsE()? "Gyors ez a vonat":"Nem gyors ez a vonat");
             Console.WriteLine(TokajIC.SzemelyIC_e() ? "Ez a vonat rendelkezik első osztályal" : "Nem rendelkezik első osztályal");
-            Console.WriteLine(TokajIC.Szallitmany() ? "Ez a vonat teherkocsikal rendelkezik" : "Ez a vonat személykocsikal rendelkezik");
             Console.WriteLine(TokajIC.hosszuvonate() ? "Ez a vonat hosszúszerelvényel rendelkezik" : "Ez a vonat nem hosszú");
             Console.WriteLine("-------------------------------------------------------");
             SzemelyVonat AgriaIR;
-            AgriaIR = new SzemelyVonat("személy", false, 6,false,true);
+            AgriaIR = new SzemelyVonat(6,false,false);
             Console.WriteLine("AgriaIR");
             Console.WriteLine(AgriaIR.GyorsE() ? "Gyors ez a vonat" : "Nem gyors ez a vonat");
             Console.WriteLine(AgriaIR.SzemelyIC_e() ? "Ez a vonat rendelkezik első osztályal" : "Nem rendelkezik első osztályal");
-            Console.WriteLine(AgriaIR.Szallitmany() ? "Ez a vonat teherkocsikal rendelkezik" : "Ez a vonat személykocsikal rendelkezik");
             Console.WriteLine(AgriaIR.hosszuvonate() ? "Ez a vonat hosszúszerelvényel rendelkezik" : "Ez a vonat nem hosszú");
             Console.WriteLine("-------------------------------------------------------");
-            TeherVonat Teher;
-            Teher = new TeherVonat("Teher", false, 18,false,false);
+            Tehervonat Teher;
+            Teher = new Tehervonat(true,"Tégla");
             Console.WriteLine("Tehervonat");
-            Console.WriteLine(Teher.GyorsE() ? "Gyors ez a vonat" : "Nem gyors ez a vonat");
-            Console.WriteLine(Teher.SzemelyIC_e() ? "Ez a vonat rendelkezik első osztályal" : "Nem rendelkezik első osztályal");
             Console.WriteLine(Teher.Szallitmany() ? "Ez a vonat teherkocsikal rendelkezik" : "Ez a vonat személykocsikal rendelkezik");
-            Console.WriteLine(Teher.hosszuvonate()? "Ez a vonat hosszúszerelvényel rendelkezik":"Ez a vonat nem hosszú");
             Console.WriteLine("-------------------------------------------------------");
             Vasutallomas Miskolc;
             Miskolc = new Vasutallomas(true,5,4,3);

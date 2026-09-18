@@ -8,28 +8,22 @@ namespace Vonat
 {
     public class SzemelyVonat
     {
-        private string szallitmany;
+        
         private bool gyors;
         private int hossz_m;
         private bool szemely1osztaly;
-        private bool kocsik;
-
-
-        public SzemelyVonat(string szallitmany, int hossz_m)
+        
+        public SzemelyVonat(int hossz_m,bool gyors,bool szemely1osztaly)
         {
-            //this.szallitmany = szallitmany;
             this.gyors = gyors;
             this.hossz_m = hossz_m;
             this.szemely1osztaly = szemely1osztaly;
-            //this.kocsik = kocsik;
         }
-        public SzemelyVonat(string szallitmany)
+        public SzemelyVonat(bool szemely1osztaly)
         {
             this.gyors = false;
             this.hossz_m = 4;
-            //this.szallitmany = szallitmany;
             this.szemely1osztaly= false;
-            this.kocsik = true;
         }
         public bool GyorsE()
         {
@@ -44,7 +38,7 @@ namespace Vonat
         }
         public bool SzemelyIC_e()
         {
-            if (szallitmany == "Teher" || gyors == false)
+            if (gyors == false)
             {
                 return szemely1osztaly = false;
             }
@@ -53,17 +47,7 @@ namespace Vonat
                 return szemely1osztaly = true;
             }
         }
-        public bool Szallitmany()
-        {
-            if (kocsik == true)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-        }
+
         public bool hosszuvonate()
         {
             if (hossz_m > 15)
@@ -76,6 +60,36 @@ namespace Vonat
             }
         }
 
+    }
+    public class Tehervonat()
+    {
+        private string szallitmany;
+        private bool kocsik;
+
+        
+        public Tehervonat(bool kocsik,string szallitmany)
+        {
+            this.szallitmany = "Tégla";
+            this.kocsik = true;
+        }
+
+        public Tehervonat(bool kocsik,string szallitmany)
+        {
+            this.szallitmany = szallitmany;
+            this.kocsik = kocsik;
+        }
+
+        public bool Szallitmany()
+        {
+            if (kocsik == true)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
     }
 
 }
